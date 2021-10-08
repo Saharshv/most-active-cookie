@@ -7,7 +7,7 @@ Command line program to process the log file and return the most active cookie f
 ## Running the Project
 First, clone the project to your local machine in any directory of your choice.
 ``` 
-git clone https://github.com/Saharshv/quantcast-2022.git
+git clone https://github.com/Saharshv/most-active-cookie.git
 ```
 
 Then go inside the cloned directory and run the following command in cmd:
