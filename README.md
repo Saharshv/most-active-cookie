@@ -12,5 +12,5 @@ git clone https://github.com/Saharshv/most-active-cookie.git
 
 Then go inside the cloned directory and run the following command in cmd:
 ```
-python most_active_cookie cookie_log.csv -d 2018-12-09
+python3 most_active_cookie.py cookie_log.csv -d 2018-12-09
 ```
