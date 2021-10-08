@@ -10,6 +10,8 @@ def fillCookieStoreFromInput(cookieStore: CookieStore) -> None:
     file = open(fileName, "r")
     for line in file:
         raw_cookie = line.strip().split(",")
+        if raw_cookie[0] == "cookie" and raw_cookie[1] == "timestamp":
+            continue
         if len(raw_cookie) != 2:
             raise TypeError('Expected cookie string')
         cookieStore.addCookie(raw_cookie[0], datetime.fromisoformat(raw_cookie[1]))
